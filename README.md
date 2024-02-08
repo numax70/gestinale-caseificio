@@ -1,2 +1,3 @@
 # gestionale-caseificio
-Progetto Front End 2024
+Progetto Front End Stage 2024
+
