@@ -244,3 +244,8 @@ function stampaEtichetta() {
   labelNote.innerHTML = "Note";
   etichNote.innerHTML = comments.value;
 }
+/*Abilitazione al reset pulsante Annulla  */
+function clearForm(){
+  document.forms[0].reset();
+  forms.classList.remove("was-validated");
+}
