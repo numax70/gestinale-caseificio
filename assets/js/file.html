@@ -1,0 +1,41 @@
+<div class="modal" tabindex="-1" id="scontrino">
+    <div class="modal-dialog">
+        <div class="modal-content" id="daStampare">
+            <div class="modal-header">
+                <h5 class="modal-title">Scontrino del <span id="data"></span></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="xClose"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-8" id="scAnti"></div>
+                    <div class="col-4" id="scPrAnti"></div>
+                </div>
+                <div class="row">
+                    <div class="col-8" id="scPrimo"></div>
+                    <div class="col-4" id="scPrPrimo"></div>
+                </div>
+                <div class="row">
+                    <div class="col-8" id="scSecondo"></div>
+                    <div class="col-4" id="scPrSecondo"></div>
+                </div>
+                <div class="row">
+                    <div class="col-8" id="scBevanda"></div>
+                    <div class="col-4" id="scPrBevanda"></div>
+                </div>
+                <div class="row">
+                    <div class="col-8">Acqua e coperto</div>
+                    <div class="col-4">&euro; 5,00</div>
+                </div>
+                <hr />
+                <div class="row">
+                    <div class="col-8">TOTALE</div>
+                    <div class="col-4" id="scTot"></div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a type="button" id="stampa-scontrino" class="btn btn-primary" href="javascript:window.print();">Stampa</a>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="close">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

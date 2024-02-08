@@ -1,0 +1,18 @@
+body{font-size:16px;}
+h3{font-size:0.8em;}
+.nav-link{color:black;}
+.form-label{font-size:0.8em;}
+button{font-size:0.8em;}
+.w-date-picker{width: 50%;}
+.bg-opzioni-aggiuntive{background-color: rgb(239, 251, 253);}
+.myTab .nav-tabs {overflow-x: auto;overflow-y:hidden;flex-wrap: nowrap;}
+.myTab .nav-tabs .nav-link {white-space: nowrap;}
+.sfondo_un_mis {background-color: rgb(255, 239, 213);}
+.blocco_quattro h3{font-size:0.95em;}
+.sfondo_convers{background-color: rgb(254, 254, 242);}
+.sfondo_giacenza{background-color: rgb(241, 253, 239);}
+@media print {
+    .noPrint {
+        display: none;
+    }
+}
